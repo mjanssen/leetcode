@@ -17,12 +17,12 @@ impl Solution {
             if let Some(index) = rest.rfind(c) {
                 starts.insert(c);
 
-                let mut r: Vec<char> = rest[..index].chars().collect();
+                let mut rest_chars: Vec<char> = rest[..index].chars().collect();
                 let mut uniques = HashSet::new();
 
-                r.retain(|v| uniques.insert(v.clone()));
+                rest_chars.retain(|v| uniques.insert(v.clone()));
 
-                for inner in r {
+                for inner in rest_chars {
                     let palindrome = format!("{}{}{}", c, inner, c);
                     if pairs.get(&palindrome).is_none() {
                         pairs.insert(palindrome);
