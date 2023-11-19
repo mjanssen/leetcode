@@ -1,6 +1,6 @@
 use std::collections::HashSet;
 
-pub struct Solution {}
+pub struct Solution;
 
 impl Solution {
     pub fn count_palindromic_subsequence(s: String) -> i32 {
