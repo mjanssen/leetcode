@@ -1,6 +1,8 @@
 pub mod fizbuzz;
 pub mod reduce_to_zero;
 
+pub mod _1424;
+pub mod _1814;
 pub mod _1838;
 pub mod _1846;
 pub mod _1877;
@@ -12,4 +14,4 @@ pub mod _2391;
 pub mod _2785;
 pub mod _2788;
 pub mod _815;
-pub mod _1814;
+pub mod _1630;
