@@ -17,9 +17,9 @@ impl Solution {
     }
 
     pub fn check_arithmetic_subarrays(nums: Vec<i32>, l: Vec<i32>, r: Vec<i32>) -> Vec<bool> {
-        l.into_iter()
-            .zip(r.into_iter())
-            .map(|(il, ir)| nums[il as usize..=ir as usize].to_vec())
+        l.iter()
+            .zip(r.iter())
+            .map(|(il, ir)| nums[*il as usize..=*ir as usize].to_vec())
             .map(|mut range: Vec<i32>| Solution::is_arithmetic(range.as_mut()))
             .collect::<Vec<bool>>()
     }
