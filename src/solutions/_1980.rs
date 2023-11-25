@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-unique-binary-string/description/
+
 pub struct Solution;
 
 impl Solution {

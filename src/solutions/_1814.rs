@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/count-nice-pairs-in-an-array/description/
+
 use std::collections::HashMap;
 
 pub struct Solution;

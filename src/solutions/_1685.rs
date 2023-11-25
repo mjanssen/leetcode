@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description/
+
 pub struct Solution;
 
 impl Solution {

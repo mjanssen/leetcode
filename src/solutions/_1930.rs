@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/unique-length-3-palindromic-subsequences/description/
+
 use std::collections::HashSet;
 
 pub struct Solution;

@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/count-asterisks/description/
+
 pub struct Solution;
 
 impl Solution {

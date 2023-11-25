@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/
+
 pub struct Solution;
 
 impl Solution {

@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/description/
+
 pub struct Solution;
 
 impl Solution {

@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/arithmetic-subarrays/description/
+
 pub struct Solution;
 
 impl Solution {

@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/
+
 pub struct Solution;
 
 impl Solution {
