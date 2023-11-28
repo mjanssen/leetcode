@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/description
+
 pub struct Solution;
 
 static MOD: i64 = 1_000_000_007;
