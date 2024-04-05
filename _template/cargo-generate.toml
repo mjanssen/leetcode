@@ -1,0 +1,3 @@
+[placeholders]
+project_url = { prompt = "Enter the leetcode url", type = "string" }
+fn_name = { prompt = "Enter the solution function name", default = "process", type = "string" }
