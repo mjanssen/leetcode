@@ -4,6 +4,7 @@ use {{crate_name}}::problem::Solution;
 
 pub fn main() {
     let result = Solution::{{fn_name}}();
+    println!("{{crate_name}}: {:?}", result);
 }
 
 #[test]
